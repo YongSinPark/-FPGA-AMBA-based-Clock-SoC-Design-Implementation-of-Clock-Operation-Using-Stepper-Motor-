@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_Combine_step_lmb_bram_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_microblaze_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_ilmb_v10_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_xbar_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_dlmb_v10_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_Combine_step_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="design_Combine_step_axi_gpio_2_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_axi_gpio_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_axi_gpio_1_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_axi_gpio_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_microblaze_0_axi_intc_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_microblaze_0_axi_intc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_clk_wiz_1_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_axi_gpio_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_mdm_1_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_AXI4_BuzzerPWM_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_AXI4_BuzzerPWM_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_axi_timer_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_axi_timer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_StepMotorController_2_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_StepMotorController_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_AXI4_tickGenerator_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_AXI4_tickGenerator_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_axi_gpio_3_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_axi_gpio_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_axi_uartlite_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_Combine_step_StepMotorController_1_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_StepMotorController_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_Combine_step_StepMotorController_2_0_synth_1"/>
+	</Run>
+	<Run Id="design_Combine_step_StepMotorController_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_StepMotorController_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_Combine_step_StepMotorController_2_0_synth_1"/>
+	</Run>
+	<Run Id="design_Combine_step_AXI4_BCD_to_FND_0_0_synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/design_Combine_step_AXI4_BCD_to_FND_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_Combine_step_lmb_bram_0_synth_1"/>
+		<Parent Id="design_Combine_step_microblaze_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="design_Combine_step_ilmb_v10_0_synth_1"/>
+		<Parent Id="design_Combine_step_xbar_0_synth_1"/>
+		<Parent Id="design_Combine_step_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="design_Combine_step_dlmb_v10_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_2_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="design_Combine_step_clk_wiz_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_mdm_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_AXI4_BuzzerPWM_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_timer_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_StepMotorController_2_0_synth_1"/>
+		<Parent Id="design_Combine_step_AXI4_tickGenerator_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_3_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_StepMotorController_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_StepMotorController_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_AXI4_BCD_to_FND_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/xilinx_2020/MB_Peripheral_step_driver/MB_Peripheral_step_driver.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_Combine_step_lmb_bram_0_synth_1"/>
+		<Parent Id="design_Combine_step_microblaze_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="design_Combine_step_ilmb_v10_0_synth_1"/>
+		<Parent Id="design_Combine_step_xbar_0_synth_1"/>
+		<Parent Id="design_Combine_step_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="design_Combine_step_dlmb_v10_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_2_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="design_Combine_step_clk_wiz_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_mdm_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_AXI4_BuzzerPWM_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_timer_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_StepMotorController_2_0_synth_1"/>
+		<Parent Id="design_Combine_step_AXI4_tickGenerator_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_gpio_3_0_synth_1"/>
+		<Parent Id="design_Combine_step_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_StepMotorController_1_0_synth_1"/>
+		<Parent Id="design_Combine_step_StepMotorController_0_0_synth_1"/>
+		<Parent Id="design_Combine_step_AXI4_BCD_to_FND_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

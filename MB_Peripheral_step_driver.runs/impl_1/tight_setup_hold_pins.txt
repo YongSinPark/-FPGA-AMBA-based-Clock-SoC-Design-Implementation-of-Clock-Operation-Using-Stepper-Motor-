@@ -1,0 +1,9 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+| clk_out1_design_Combine_step_clk_wiz_1_0_1 |clk_out1_design_Combine_step_clk_wiz_1_0 |                                 design_Combine_step_i/StepMotorController_2/inst/U0/U0/r_counter_reg[0]/D|
+| clk_out1_design_Combine_step_clk_wiz_1_0_1 |clk_out1_design_Combine_step_clk_wiz_1_0 |                                         design_Combine_step_i/AXI4_BuzzerPWM_0/inst/U0/r_counter_reg[0]/D|
+| clk_out1_design_Combine_step_clk_wiz_1_0_1 |clk_out1_design_Combine_step_clk_wiz_1_0 |                                 design_Combine_step_i/StepMotorController_0/inst/U0/U0/r_counter_reg[0]/D|
+| clk_out1_design_Combine_step_clk_wiz_1_0_1 |clk_out1_design_Combine_step_clk_wiz_1_0 |                                                design_Combine_step_i/AXI4_BuzzerPWM_0/inst/U0/r_clk_reg/D|
+| clk_out1_design_Combine_step_clk_wiz_1_0_1 |clk_out1_design_Combine_step_clk_wiz_1_0 |                                 design_Combine_step_i/StepMotorController_1/inst/U0/U0/r_counter_reg[0]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

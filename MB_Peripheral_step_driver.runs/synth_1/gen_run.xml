@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1667551970">
+  <File Type="PA-TCL" Name="design_Combine_step_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="design_Combine_step_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="design_Combine_step_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="design_Combine_step_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="design_Combine_step_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="design_Combine_step_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="design_Combine_step_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="design_Combine_step_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="design_Combine_step_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/design_Combine_step/design_Combine_step.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_Combine_step/hdl/design_Combine_step_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_Combine_step_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/xilinx_2020/MY_Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1643535321"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_StepMotorController_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_AXI4_BuzzerPWM_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_axi_timer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_StepMotorController_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_AXI4_tickGenerator_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_axi_gpio_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_StepMotorController_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_Combine_step_AXI4_BCD_to_FND_0_0"/>
+</GenRun>
